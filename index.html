@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnology Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Play&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./img/favicon/icons8-favicon-94.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--/Seção sobre a parte de navegação/-->
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="headers">
+        <div class="container">
+            <h1 class="navbar-brand m-0" id="Name-Navh1">Tecnology store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <label class="hamburger">
+                    <input type="checkbox">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destaque" class="nav-link">
+                            <i class="bi bi-box-seam me-1"></i>
+                            Destaque
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Fim da Seção de navegação-->
+    <!----------------------------->
+    <!--/Seção Sobre/-->
+    <div data-bs-spy="scroll" data-bs-target="headers" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img id="img-s1" src="./img/sobreloja/Sobrealoja.jpg" class="d-block rounded-1"
+                            alt="Foto do espaço interno da loja Tecnology Store">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 id="Name-Sobreh2">Sobre</h2>
+                        <p id="p-Name-Sobreh2">
+                            Bem-vindo à Tecnology Store, o destino definitivo para os entusiastas da tecnologia que
+                            buscam experiências inovadoras e produtos de alta qualidade. Como líder no varejo online,
+                            nossa loja estabeleceu parcerias exclusivas com algumas das marcas mais renomadas do
+                            mercado, incluindo <span id="span-p">Samsung, Apple e Xiaomi</span>. Aqui, oferecemos uma
+                            ampla gama de dispositivos eletrônicos e acessórios para atender às suas necessidades
+                            digitais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da seção Sobre-->
+        <!----------------------------->
+        <!--/Seção de Destaque-->
+        <section id="destaque">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="7000">
+                        <a href="https://shop.samsung.com/br/galaxy-s24-ultra-512gb/p" target="_blank">
+                            <img id="imgp1" src="./img/carousel/destaques24.png"
+                                alt="Capa exemplo samsung s24 ultra atividade" srcset="">
+                        </a>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="7000">
+                        <a href="https://www.apple.com/br/shop/buy-iphone/iphone-15" target="_blank">
+                            <img id="imgp2" src="./img/carousel/destaque15.png" alt="Capa exemplo Apple 15 atividade">
+                        </a>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="7000">
+                        <a href="https://www.mibrasil.com.br/smartphone-xiaomi-13-lite-5g-256gb-c00356-p4649?pp=/146.1421/"
+                            target="_blank">
+                            <img id="imgp3" src="./img/carousel/destaque13lite.png"
+                                alt="Capa exemplo xiaomi 13 lite atividade">
+                        </a>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev carousel-dark" data-bs-target="#carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next carousel-dark" data-bs-target="#carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da seção de Destaque-->
+        <!---------------------------->
+        <!--/Seção Produtos/-->
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 id="Name-Proh2" class="text-center">Produtos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="img-produtos" src="./img/ecossistema/Ecossistema Samsung.png"
+                            alt="Foto do ecossistema da Samsung">
+                        <h3 id="Name-Proh3img">
+                            <a href="#Samsung"></a>
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="img-produtos" src="./img/ecossistema/Ecossistema Apple.png"
+                            alt="Foto do ecossistema da Apple">
+                        <h3 id="Name-Proh3img">
+                            <a href="#Apple"></a>
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="img-produtos" src="./img/ecossistema/Ecossistema Xiaomi.png"
+                            alt="Foto do ecossistema da Xiaomi">
+                        <h3 id="Name-Proh3img">
+                            <a href="#Xiaomi"></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da seção de Produtos-->
+        <!---------------------------->
+        <!--/Seção dos botões dos produtos-->
+        <section id="produtos-ecossistema">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-buttonp">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Samsung"
+                                class="fw-bold text-center nav-link active buttonp">Samsung</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Apple"
+                                class="fw-bold text-center nav-link buttonp">Apple</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Xiaomi"
+                                class="fw-bold text-center nav-link buttonp">Xiaomi</button>
+                        </nav>
+                    </aside>
+                    <!--Fim da seção dos botões dos produtos-->
+                    <!---------------------------------------->
+                    <!--/Seção do botão da Samsung/-->
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Samsung">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/samsung photos/s23.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do S23 da samsung">
+                                        <h5>S23 Samsung 5G 128GB/8GB Ram</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/samsung photos/zflip 5.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Z-Flip5 da samsung">
+                                        <h5>Z-Flip 5 5G 256GB/8GB Ram</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/samsung photos/buds pro.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Buds Pro da samsung">
+                                        <h5>S23 Samsung 5G 128GB/8GB</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/samsung photos/buds fe.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Buds Fe da samsung">
+                                        <h5>S23 Samsung 5G 128GB/8GB</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Fim da seção do botão da Samsung-->
+                            <!------------------------------------>
+                            <!--/Seção do botão da Apple-->
+                            <div class="tab-pane" id="Apple">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/apple photos/iphone 13.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Iphone 13 da Apple">
+                                        <h5>iPhone 13</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/apple photos/macbook air m1.jpg" class="d-block" id="img-as-p-macbook"
+                                            alt="Imagem do Macbook Air m1 da Apple">
+                                        <h5>Macbook Air M1</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/apple photos/airpods 3.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do AirPods Pro da Apple">
+                                        <h5>AirPods Pro</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/apple photos/carregador iphone 20w.jpg" class="d-block"
+                                            id="img-as-p" alt="Imagem do Carregador da Apple">
+                                        <h5>Carregador iPhone 20W</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Fim da seção do botão da Apple-->
+                            <!---------------------------------->
+                            <!--/Seção do botão do Xiaomi-->
+                            <div class="tab-pane" id="Xiaomi">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/xiaomi photos/redmi note 12.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Xiaomi Redmi Note 13">
+                                        <h5>Redmi Note 13</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/xiaomi photos/redmi buds lite.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Redmi Buds Lite">
+                                        <h5>Redmi Buds Lite</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/xiaomi photos/mi band 8.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Mi Band 8">
+                                        <h5>Mi Band 8</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/xiaomi photos/mi box s 4k.jpg" class="d-block" id="img-as-p"
+                                            alt="Imagem do Mi Box 4k">
+                                        <h5>Mi Box 4k</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Fim da seção do botão da Xiaomi-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da seção de produtos-ecossistema-->
+        <!---------------------------------------->
+        <!--/Seção de Contato-->
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center" id="Name-Contacth2">Contate-nos</h2>
+                </div>
+                <div class="row d-flex justify-content-center" id="contact-form">
+                    <div class="col-md-7">
+                        <form class="feed-form">
+                            <div>
+                                <label for="nome" class="form-label">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required placeholder="Ex: José João">
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required
+                                    placeholder="seuemail@gmail.com">
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required
+                                    placeholder="(00) (00000-0000)">
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required placeholder="Digite sua mensagem"
+                                    style="resize: none;"></textarea>
+                            </div>
+                            <button type="submit" class="btn" id="button-contact">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row" id="Social-follow">
+                        <h4 id="Name-Socialh4">Redes Sociais</h5>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-facebook" style="color: #F2D6A2;"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-instagram" style="color: #F2D6A2;"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp" style="color: #F2D6A2;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="row" id="Endereco-location">
+                        <h5 id="Name-Enderecoh5">Endereço</h5>
+                        <p id="p-endereco">
+                            Rua Tecnology Store, Av.Internet N°4002 - RECIFE - PE
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

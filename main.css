@@ -1,0 +1,1474 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Play', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Start, Tag sobre background da parte do nav*/
+.navbar {
+  background-color: #383D40;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre o background e color dos links ativos do nav */
+#headers .nav .nav-link.active {
+  background-color: #fff;
+  color: #d8c5a0;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre a cor dos links*/
+#headers .nav .nav-link {
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre estilo de fonte dos links*/
+.nav-item a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre a cor do H1 do header da classe navbar-brand*/
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre o h1 do nav*/
+#Name-Navh1 {
+  font-family: 'Play', sans-serif;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h2 do sobre do site*/
+#Name-Sobreh2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-left: 87%;
+  margin-top: -1%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o parágrafo do sobre */
+#p-Name-Sobreh2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+#span-p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #383D40;
+}
+
+/*The-end*/
+
+/*Start, tag sobre a imagem da seção sobre*/
+#img-s1 {
+  padding-bottom: 47%;
+  width: 100%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o espaçamento em relação ao nav na section sobre*/
+#sobre {
+  padding-top: 5%;
+}
+
+/*The-end*/
+
+/*Start, Tag sobre tamanho da capa de destaque*/
+#imgp1 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#imgp2 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#imgp3 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h2 da section produtos*/
+#Name-Proh2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre as imagens da seção produtos*/
+#img-produtos {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+}
+
+#img-produtos:hover {
+  transform: translateY(-5px) scale(1.1);
+  cursor: pointer;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h3 da imagem da seção produtos*/
+#Name-Proh3img {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o margin-top das imagens da seção produtos*/
+#produtos-ecossistema {
+  margin-top: 20%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre a estilização do button aside*/
+.buttonp {
+  color: #383D40;
+}
+
+.buttonp:hover {
+  background-color: #383D40;
+  color: #d8c5a0;
+}
+
+.nav-buttonp .nav-link.active {
+  background-color: #d8c5a0;
+  color: #fff;
+}
+
+.nav-buttonp .nav-link.active:hover {
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start,tag sobre a imagem do aside*/
+#img-as-p {
+  margin: 15%;
+  padding: 15%;
+  width: 100%;
+}
+
+#img-as-p-macbook {
+  margin: 15%;
+  padding: 15%;
+  width: 100%;
+}
+
+#img-as-p:hover {
+  transform: translateY(-5px) scale(1.1);
+  cursor: pointer;
+}
+
+/*The-end*/
+
+/*Start, tag sobre a seção fale-conosco*/
+#fale-conosco {
+  background-color: #383D40;
+  margin-top: 15%;
+  padding-bottom: 10%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h2 da seção fale-conosco*/
+#Name-Contacth2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 5%;
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o form da seção fale-conosco*/
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.feed-form input {
+  height: 54px;
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4B4B4B;
+}
+
+.feed-form label {
+  color: #fff;
+}
+
+#contact-form {
+  margin-left: 21%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre a estilização do button da seção fale-conosco*/
+#button-contact {
+  color: #000000;
+  background-color: #fff;
+  margin-top: 5%;
+}
+
+#button-contact:hover {
+
+  background-color: #d8c5a0;
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h4 de redes sociais*/
+#Name-Socialh4 {
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o h5 de endereço*/
+#Name-Enderecoh5 {
+  color: #fff;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o margin top de redes sociais*/
+#Social-follow {
+  margin-top: 6%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre os li dos icones de redes sociais*/
+.social-links li {
+  list-style: none;
+  display: inline;
+  margin: 5px;
+}
+
+/*The-end*/
+
+/*Start, tag para retirar o text-decoration dos li*/
+.social-links a {
+  text-decoration: none;
+}
+
+/*The-end*/
+
+/*Start, tag sobre o margin top de endereço*/
+#Endereco-location {
+  margin-top: 4%;
+}
+
+/*The-end*/
+
+/*Start, tag sobre a estilização do parágrafo de endereço*/
+#p-endereco {
+  color: #fff;
+}
+
+/*The-end*/
+
+
+/*Start, Tag sobre a estilização do button hamburguer no modo mobile*/
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  /* The size of the SVG defines the overall size */
+  height: 1.5em;
+  /* Define the transition for transforming the SVG */
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  /* Define the transition for transforming the Stroke */
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked+svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked+svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+/*The-end*/
+
+/*Seção Mobile Smartphone - Portrait*/
+@media screen and (min-width: 320px) and (max-width:480px) {
+  body {
+    font-family: 'Play', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*Start, Tag sobre background da parte do nav*/
+  .navbar {
+    background-color: #383D40;
+    width: 100%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o background e color dos links ativos do nav */
+  #headers .nav .nav-link.active {
+    background-color: #fff;
+    color: #d8c5a0;
+    margin-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor dos links*/
+  #headers .nav .nav-link {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre estilo de fonte dos links*/
+  .nav-item a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor do H1 do header da classe navbar-brand*/
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o h1 do nav*/
+  #Name-Navh1 {
+    font-family: 'Play', sans-serif;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 do sobre do site*/
+  #Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 0%;
+    margin-top: -35%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o parágrafo do sobre */
+  #p-Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  #span-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #383D40;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a imagem da seção sobre*/
+  #img-s1 {
+    padding-bottom: 47%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o espaçamento em relação ao nav na section sobre*/
+  #sobre {
+    padding-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens em destaque*/
+  #destaque {
+    margin-top: 35%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre tamanho da capa de destaque*/
+  #imgp1 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp2 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp3 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da section produtos*/
+  #Name-Proh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+
+  /*The-end*/
+
+  #produtos {
+    margin-top: 20%;
+  }
+
+  /*Start, tag sobre as imagens da seção produtos*/
+  #img-produtos {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  #img-produtos:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h3 da imagem da seção produtos*/
+  #Name-Proh3img {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens da seção produtos*/
+  #produtos-ecossistema {
+    margin-top: 20%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button aside*/
+  .buttonp {
+    color: #383D40;
+  }
+
+  .buttonp:hover {
+    background-color: #383D40;
+    color: #d8c5a0;
+  }
+
+  .nav-buttonp .nav-link.active {
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  .nav-buttonp .nav-link.active:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start,tag sobre a imagem do aside*/
+  #img-as-p {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 300px;
+  }
+
+  #img-as-p-macbook {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 300px;
+    margin-left: -8%;
+  }
+
+  #img-as-p:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a seção fale-conosco*/
+  #fale-conosco {
+    background-color: #383D40;
+    margin-top: 15%;
+    padding-bottom: 10%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da seção fale-conosco*/
+  #Name-Contacth2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o form da seção fale-conosco*/
+  .feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -17%;
+  }
+
+  .feed-form input {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+  }
+
+  .feed-form label {
+    color: #fff;
+  }
+
+  #contact-form {
+    margin-left: 21%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button da seção fale-conosco*/
+  #button-contact {
+    color: #000000;
+    background-color: #fff;
+    margin-top: 5%;
+  }
+
+  #button-contact:hover {
+
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h4 de redes sociais*/
+  #Name-Socialh4 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h5 de endereço*/
+  #Name-Enderecoh5 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de redes sociais*/
+  #Social-follow {
+    margin-top: 6%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre os li dos icones de redes sociais*/
+  .social-links li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+  }
+
+  /*The-end*/
+
+  /*Start, tag para retirar o text-decoration dos li*/
+  .social-links a {
+    text-decoration: none;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de endereço*/
+  #Endereco-location {
+    margin-top: 4%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do parágrafo de endereço*/
+  #p-endereco {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+
+  /*Start, Tag sobre a estilização do button hamburguer no modo mobile*/
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .hamburger input {
+    display: none;
+  }
+
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 1.5em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+
+  .hamburger input:checked+svg {
+    transform: rotate(-45deg);
+  }
+
+  .hamburger input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+
+  /*The-end*/
+}
+
+/*The-end Media Screen - 320px === 480px*/
+
+/*Seção mobile iPad-Tablets*/
+@media screen and (min-width: 481px) and (max-width:768px) {
+  body {
+    font-family: 'Play', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*Start, Tag sobre background da parte do nav*/
+  .navbar {
+    background-color: #383D40;
+    width: 100%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o background e color dos links ativos do nav */
+  #headers .nav .nav-link.active {
+    background-color: #fff;
+    color: #d8c5a0;
+    margin-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor dos links*/
+  #headers .nav .nav-link {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre estilo de fonte dos links*/
+  .nav-item a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor do H1 do header da classe navbar-brand*/
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o h1 do nav*/
+  #Name-Navh1 {
+    font-family: 'Play', sans-serif;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 do sobre do site*/
+  #Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: -75%;
+    margin-top: 125%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o parágrafo do sobre */
+  #p-Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: -75%;
+  }
+
+  #span-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #383D40;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a imagem da seção sobre*/
+  #img-s1 {
+    padding-bottom: 47%;
+    width: 250%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o espaçamento em relação ao nav na section sobre*/
+  #sobre {
+    padding-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens em destaque*/
+  #destaque {
+    margin-top: 35%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre tamanho da capa de destaque*/
+  #imgp1 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp2 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp3 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da section produtos*/
+  #Name-Proh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+
+  /*The-end*/
+
+  #produtos {
+    margin-top: 20%;
+  }
+
+  /*Start, tag sobre as imagens da seção produtos*/
+  #img-produtos {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  #img-produtos:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h3 da imagem da seção produtos*/
+  #Name-Proh3img {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens da seção produtos*/
+  #produtos-ecossistema {
+    margin-top: 20%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button aside*/
+  .buttonp {
+    color: #383D40;
+  }
+
+  .buttonp:hover {
+    background-color: #383D40;
+    color: #d8c5a0;
+  }
+
+  .nav-buttonp .nav-link.active {
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  .nav-buttonp .nav-link.active:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start,tag sobre a imagem do aside*/
+  #img-as-p {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 150px;
+  }
+
+  #img-as-p-macbook {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 150px;
+    margin-left: -20%;
+  }
+
+  #img-as-p:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a seção fale-conosco*/
+  #fale-conosco {
+    background-color: #383D40;
+    margin-top: 15%;
+    padding-bottom: 10%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da seção fale-conosco*/
+  #Name-Contacth2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o form da seção fale-conosco*/
+  .feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -17%;
+  }
+
+  .feed-form input {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+  }
+
+  .feed-form label {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  #contact-form {
+    margin-left: 21%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button da seção fale-conosco*/
+  #button-contact {
+    color: #000000;
+    background-color: #fff;
+    margin-top: 5%;
+    font-size: 1.2rem;
+  }
+
+  #button-contact:hover {
+
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h4 de redes sociais*/
+  #Name-Socialh4 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h5 de endereço*/
+  #Name-Enderecoh5 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de redes sociais*/
+  #Social-follow {
+    margin-top: 6%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre os li dos icones de redes sociais*/
+  .social-links li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+  }
+
+  /*The-end*/
+
+  /*Start, tag para retirar o text-decoration dos li*/
+  .social-links a {
+    text-decoration: none;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de endereço*/
+  #Endereco-location {
+    margin-top: 4%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do parágrafo de endereço*/
+  #p-endereco {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+
+  /*Start, Tag sobre a estilização do button hamburguer no modo mobile*/
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .hamburger input {
+    display: none;
+  }
+
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 1.5em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+
+  .hamburger input:checked+svg {
+    transform: rotate(-45deg);
+  }
+
+  .hamburger input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+
+  /*The-end*/
+}
+
+/*The-end Media Screen - 481px === 768px*/
+
+/*Seção Media Screen - 769px === 1024px*/
+@media screen and (min-width:769px) and (max-width:1024px)  {
+  body {
+    font-family: 'Play', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*Start, Tag sobre background da parte do nav*/
+  .navbar {
+    background-color: #383D40;
+    width: 100%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o background e color dos links ativos do nav */
+  #headers .nav .nav-link.active {
+    background-color: #fff;
+    color: #d8c5a0;
+    margin-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor dos links*/
+  #headers .nav .nav-link {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre estilo de fonte dos links*/
+  .nav-item a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre a cor do H1 do header da classe navbar-brand*/
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre o h1 do nav*/
+  #Name-Navh1 {
+    font-family: 'Play', sans-serif;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 do sobre do site*/
+  #Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: -75%;
+    margin-top: 125%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o parágrafo do sobre */
+  #p-Name-Sobreh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: -75%;
+  }
+
+  #span-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #383D40;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a imagem da seção sobre*/
+  #img-s1 {
+    padding-bottom: 47%;
+    width: 250%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o espaçamento em relação ao nav na section sobre*/
+  #sobre {
+    padding-top: 5%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens em destaque*/
+  #destaque {
+    margin-top: 35%;
+  }
+
+  /*The-end*/
+
+  /*Start, Tag sobre tamanho da capa de destaque*/
+  #imgp1 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp2 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  #imgp3 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da section produtos*/
+  #Name-Proh2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+
+  /*The-end*/
+
+  #produtos {
+    margin-top: 20%;
+  }
+
+  /*Start, tag sobre as imagens da seção produtos*/
+  #img-produtos {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  #img-produtos:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h3 da imagem da seção produtos*/
+  #Name-Proh3img {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin-top das imagens da seção produtos*/
+  #produtos-ecossistema {
+    margin-top: 20%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button aside*/
+  .buttonp {
+    color: #383D40;
+  }
+
+  .buttonp:hover {
+    background-color: #383D40;
+    color: #d8c5a0;
+  }
+
+  .nav-buttonp .nav-link.active {
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  .nav-buttonp .nav-link.active:hover {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start,tag sobre a imagem do aside*/
+  #img-as-p {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 150px;
+  }
+
+  #img-as-p-macbook {
+    margin: 15%;
+    padding: 15%;
+    width: auto;
+    height: 150px;
+    margin-left: -20%;
+  }
+
+  #img-as-p:hover {
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a seção fale-conosco*/
+  #fale-conosco {
+    background-color: #383D40;
+    margin-top: 15%;
+    padding-bottom: 10%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h2 da seção fale-conosco*/
+  #Name-Contacth2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o form da seção fale-conosco*/
+  .feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -17%;
+  }
+
+  .feed-form input {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+  }
+
+  .feed-form label {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+  #contact-form {
+    margin-left: 21%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do button da seção fale-conosco*/
+  #button-contact {
+    color: #000000;
+    background-color: #fff;
+    margin-top: 5%;
+    font-size: 1.2rem;
+  }
+
+  #button-contact:hover {
+
+    background-color: #d8c5a0;
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h4 de redes sociais*/
+  #Name-Socialh4 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o h5 de endereço*/
+  #Name-Enderecoh5 {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de redes sociais*/
+  #Social-follow {
+    margin-top: 6%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre os li dos icones de redes sociais*/
+  .social-links li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+  }
+
+  /*The-end*/
+
+  /*Start, tag para retirar o text-decoration dos li*/
+  .social-links a {
+    text-decoration: none;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre o margin top de endereço*/
+  #Endereco-location {
+    margin-top: 4%;
+  }
+
+  /*The-end*/
+
+  /*Start, tag sobre a estilização do parágrafo de endereço*/
+  #p-endereco {
+    color: #fff;
+  }
+
+  /*The-end*/
+
+
+  /*Start, Tag sobre a estilização do button hamburguer no modo mobile*/
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .hamburger input {
+    display: none;
+  }
+
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 1.5em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+
+  .hamburger input:checked+svg {
+    transform: rotate(-45deg);
+  }
+
+  .hamburger input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+
+  /*The-end*/
+}
+/*The-end Media Screen - 769px === 1024px*/
